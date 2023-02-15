@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=router.config.json
+supergraph:
+  listen: 0.0.0.0:${env.PORT:-8080}
+override_subgraph_url:
+  accounts: http://100.70.7.12:4111
